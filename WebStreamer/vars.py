@@ -28,7 +28,7 @@ class Var(object):
 
     DATABASE_URL = str(environ.get('mongodb+srv://jvictor26in:aMUzXIcgf2EJ1PWZ@cluster0.bp1zg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
     UPDATES_CHANNEL = str(environ.get('UPDATES_CHANNEL', "Telegram"))
-    OWNER_ID = int(environ.get('OWNER_ID', '777000'))
+    OWNER_ID = int(environ.get('OWNER_ID', '813126730'))
     SESSION_NAME = str(environ.get('SESSION_NAME', 'F2LxBot'))
     FORCE_UPDATES_CHANNEL = environ.get('FORCE_UPDATES_CHANNEL', False)
     FORCE_UPDATES_CHANNEL = True if str(FORCE_UPDATES_CHANNEL).lower() == "true" else False
